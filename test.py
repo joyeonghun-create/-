@@ -3,7 +3,7 @@ import openai
 import os
 
 # OpenAI API 키 설정
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "key"
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Streamlit 앱
